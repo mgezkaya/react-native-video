@@ -137,14 +137,12 @@ export default class Video extends Component {
   _onFullscreenPlayerWillPresent = (event) => {
     if (this.props.onFullscreenPlayerWillPresent) {
       this.props.onFullscreenPlayerWillPresent(event.nativeEvent);
-        this.presentFullscreenPlayer;
     }
   };
 
   _onFullscreenPlayerDidPresent = (event) => {
     if (this.props.onFullscreenPlayerDidPresent) {
       this.props.onFullscreenPlayerDidPresent(event.nativeEvent);
-        this.dismissFullscreenPlayer;
     }
   };
 
